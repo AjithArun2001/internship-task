@@ -1,0 +1,91 @@
+.header{
+    height: 64px;
+    background-color: #6D45FC;
+}
+
+.header img{
+    margin: 8px 0;
+}
+
+  .main{
+      height: 100vh;
+      padding: 10px 0;
+      background: #F2F2F7;
+;
+  }
+
+  .stories{
+      width: 90%;
+      background-color: #FFFFFF;
+      margin: 0 auto;
+      height: 100px;
+      border-radius: 16px;
+      text-align: left;
+      padding: 10px;
+  }
+  .stories p{
+      font-weight: bold;
+      margin: 0;
+  }
+
+  .story-carousel{
+      position: relative;
+      overflow-x: hidden;
+      padding-top: 10px;
+  }
+
+  .button-left button{
+    border: 1px solid #6D45FC;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+  }
+
+
+  .button-right button{
+    border: 1px solid #6D45FC;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+
+
+  .inner{
+    display: flex;
+    white-space: nowrap;
+    transition: transform 0.3s;
+    z-index: -1;
+  }
+
+  .story{
+      min-width: 64px;
+      height: 64px;
+      background: #ECE6FF;
+      border-radius: 50px;
+      margin-right: 10px;
+  }
+
+  @media screen and (min-width: 600px) {
+    .header{
+        height: 80px;
+        padding: 0 24px;
+        text-align: left;
+    }
+
+    .header img{
+        margin: 16px 0;
+    }
+
+    .main{
+        width: 600px;
+        margin: 0 auto;
+    }
+  }
